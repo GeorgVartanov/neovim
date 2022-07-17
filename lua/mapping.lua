@@ -13,3 +13,5 @@ map("n", "<D-b>", ":wd<CR>", opts)
 
 map("n", "<leader>tfb", ":Telescope file_browser<CR>", opts)
 
+
+map('n', '<Leader>e', ':NvimTreeToggle<CR>', opts)

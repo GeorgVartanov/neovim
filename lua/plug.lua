@@ -30,5 +30,17 @@ use {
     }
   end
 }
+use 'simrat39/rust-tools.nvim'
+
+--Debugging
+use 'nvim-lua/plenary.nvim'
+use 'mfussenegger/nvim-dap'
+use {
+    "kyazdani42/nvim-tree.lua",
+    requires = "kyazdani42/nvim-web-devicons",
+    config = function()
+      require('plugins.nvim-tree')
+    end,
+  }
 end)
 
